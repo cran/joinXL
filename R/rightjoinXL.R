@@ -22,6 +22,12 @@
 #' type left join, \code{\link{fulljoinXL}} for SQL type full join, \code{\link{minusXL}} for
 #' file1 minus file2
 #'
+#' @examples
+#' \dontrun{
+#' rightjoinXL();
+#' }
+#'
+#' @export rightjoinXL
 #' @importFrom readxl read_excel
 #' @importFrom timeSeries merge
 #' @importFrom timeSeries head
@@ -29,6 +35,11 @@
 #' @importFrom data.table data.table
 #' @import R.utils
 #' @import rChoiceDialogs
+#' @import Rcpp
+#' @import graphics
+#' @import grDevices
+#' @import stats
+#' @import rJava
 
 
 rightjoinXL <- function(){

@@ -1,6 +1,6 @@
 Package: joinXL
 Title: Perform Joins or Minus Queries on 'Excel' Files
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: person("Yvonne", "Glanville", email = "yvonneglanville@gmail.com", role = c("aut", "cre"))
 Description: Performs Joins and Minus Queries on 'Excel' Files
     fulljoinXL() Merges all rows of 2 'Excel' files based upon a common column in the files.
@@ -16,7 +16,9 @@ Description: Performs Joins and Minus Queries on 'Excel' Files
 Depends: R (>= 3.3.1)
 Imports: readxl (>= 0.1.1), openxlsx (>= 3.0.0), timeSeries (>=
         3022.101.2), data.table (>= 1.9.6), rChoiceDialogs(>= 1.0.6),
-        R.utils(>= 2.3.0)
+        R.utils(>= 2.3.0), rJava (>= 0.9-8), graphics (>= 3.3.1), Rcpp
+        (>= 0.11.1), grDevices (>= 3.3.1), stats (>= 3.3.1), timeDate
+        (>= 2150.95)
 VignetteBuilder: knitr
 License: GPL-3
 Encoding: UTF-8
@@ -26,8 +28,8 @@ BugReports: http://github.com/yvonneglanville/joinXL/issues
 RoxygenNote: 5.0.1
 Suggests: knitr, rmarkdown
 NeedsCompilation: no
-Packaged: 2016-08-29 18:31:01 UTC; a593215
+Packaged: 2016-09-12 00:01:37 UTC; yvonn
 Author: Yvonne Glanville [aut, cre]
 Maintainer: Yvonne Glanville <yvonneglanville@gmail.com>
 Repository: CRAN
-Date/Publication: 2016-08-30 00:48:34
+Date/Publication: 2016-09-19 01:45:37
